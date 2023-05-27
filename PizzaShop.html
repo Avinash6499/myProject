@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        
+        background-color: blanchedalmond;
+    }
+    table{
+        
+        background-color: rgb(228, 234, 239);
+        border-color: rgb(4, 6, 28);
+    }
+    
+
+</style>
+<body>
+    <table border="1">
+        <tr>
+            <th colspan="2">Pizza Shop 2.0</th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>
+                <label for="name"></label>
+                <input type="text" name="name" id="name" placeholder="Enter counsumer Name" >
+            </td>
+        </tr>
+        <tr>
+            <td>Pizza Topping</td>
+            <td>
+                <input type="radio" name="radio" id="radio">
+                <label for="radio">Supreme</label><br>
+                <input type="radio" name="radio" id="radio">
+                <label for="radio">Vegetrain</label><br>
+                <input type="radio" name="radio" id="radio">
+                <label for="radio">Hawaiian</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Pizza Sauce</td>
+            <td>
+                <select name="souceType" id="souceType" style="background-color: bisque;"
+                    <option value="Tamato">Tamato</option>
+                    <option value="onion">onion</option>
+                    <option value="cheese">cheese</option>
+                    <option value="margrita">margrita</option>
+                    <option value="mushroom">mushroom</option>
+                    <option value="capsicum">capsicum</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Optional Extas</td>
+            <td>
+                <input type="checkbox" name="checkbox" id="checkbox1">
+                <label for="checkbox1">Exta Cheese</label>
+                <input type="checkbox" name="checkbox" id="checkbox2">
+                <label for="checkbox2">Glutan Free Base</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Delivery Instruction<br>
+                <textarea name="delivery instruction" id="delivery instruction" cols="50" rows="4"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="button" value="Send my order">
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
